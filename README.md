@@ -43,3 +43,8 @@ python cli.py --symbol BTCUSDT --side BUY --order-type MARKET --quantity 0.01
 python cli.py --symbol BTCUSDT --side SELL --order-type LIMIT --quantity 0.01 --price 68000
 ```
 
+
+## Assumptions
+
+1. **Security & Environment Variables**:
+For security, API credentials are not hardcoded. The application expects a .env file in the root directory. This file is included in .gitignore to prevent sensitive data from being committed to the repository.
