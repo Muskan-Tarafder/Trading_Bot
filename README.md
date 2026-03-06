@@ -23,9 +23,10 @@ pip install -r requirements.txt
 5. **API Configuration**:
 Create a .env file in the root directory and add Binance Testnet credentials:
 
+```bash
 API=testnet_api_key
 SEC=testnet_api_secret
-
+```
 ## Usage Examples
 
 Run in terminal
@@ -41,3 +42,4 @@ python cli.py --symbol BTCUSDT --side BUY --order-type MARKET --quantity 0.01
 ```bash
 python cli.py --symbol BTCUSDT --side SELL --order-type LIMIT --quantity 0.01 --price 68000
 ```
+
